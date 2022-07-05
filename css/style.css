@@ -66,3 +66,48 @@ h1 {
     background-position: right;
 
 }
+
+.experience {
+    display: flex;
+}
+
+
+.experience div {
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+.experience {
+    background-image: url(../image/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.exp {
+    text-align: center;
+}
+
+.box-exp {
+    box-shadow: 10px 10px 40px gray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20PX;
+    border-right: 3px solid greenyellow;
+    border-left: 3px solid greenyellow;
+}
+
+.box-exp h3 {
+    display: inline;
+    color: darkgreen;
+    border-bottom: 2px solid black;
+}
+
+footer {
+    margin: 105px;
+}
+
+footer p {
+    text-shadow: 10px 10px 40px rgba(10, 131, 10, 0.932);
+    font-weight: 700;
+    text-align: center;
+}
