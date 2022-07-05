@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
@@ -43,4 +43,26 @@ h1 {
 .top-banner {
     background-image: url(../top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dreambig {
+    display: flex;
+
+}
+
+
+
+.half-width3 {
+    width: 50%;
+}
+
+.half-width3 img {
+    width: 80%;
+}
+
+.dreambig {
+    background-image: url(../image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
